@@ -1,7 +1,7 @@
 services:
   backend:
     build:
-      context: ./backend
+      context: ./backend-deploy
       dockerfile: Dockerfile
     ports:
       - "5050:5000"
@@ -12,7 +12,7 @@ services:
 
   frontend:
     build:
-      context: ./frontend
+      context: ./frontend-deploy
       dockerfile: Dockerfile
     ports:
       - "3000:3000"
