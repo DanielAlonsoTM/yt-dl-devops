@@ -1,6 +1,8 @@
 services:
   backend:
-    image: <DOCKER_USER>/yt-dl-back:latest
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
     ports:
       - "5050:5000"
     volumes:
@@ -9,7 +11,9 @@ services:
       - NODE_ENV=development
 
   frontend:
-    image: <DOCKER_USER>/yt-dl-front:latest
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
     ports:
       - "3000:3000"
     volumes:
