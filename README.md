@@ -2,8 +2,8 @@
 
 DevOps repository for the **YT-DL** project.
 This repo manages the infrastructure and orchestration of the following submodules:
-- [`YT-DL-BACKEND`](../YT-DL-BACKEND) (API service)
-- [`YT-DL-FRONT`](../YT-DL-FRONT) (Frontend application)
+- [`YT-DL-BACKEND`](https://github.com/DanielAlonsoTM/yt-dl-back) (API service)
+- [`YT-DL-FRONT`](https://github.com/DanielAlonsoTM/yt-dl-front) (Frontend application)
 
 ---
 
